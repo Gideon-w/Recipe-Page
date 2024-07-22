@@ -51,7 +51,7 @@ img {
 }
 
 h1 {
-  font-weight: var(--FW-bold);
+  font-weight: var(--FW-light);
   color: var(--Neutral-DarkCharcoal);
   font-family: var(--FF-type1, serif);
   font-size: calc(1.5rem + 1.5vw);
@@ -138,6 +138,10 @@ td {
   padding: 0.7em 2em;
   text-align: left;
   border-bottom: 1px solid var(--Neutral-LightGrey);
+}
+tr td:last-of-type {
+  font-weight: var(--FW-normal);
+  color: var(--Primary-Nutmeg);
 }
 
 .attribution {
