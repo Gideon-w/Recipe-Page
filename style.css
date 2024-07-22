@@ -59,7 +59,7 @@ h1 {
 }
 h2 {
   font-family: var(--FF-type1, serif);
-  font-weight: var(--FW-normal);
+  font-weight: var(--FW-light);
   font-size: calc(1.2rem + 1vw);
   color: var(--Primary-Nutmeg);
   letter-spacing: 1.5px;
@@ -103,6 +103,7 @@ li {
 }
 .prep-time h2 {
   font-family: var(--FF-type2, sans-serif);
+  font-weight: var(--FW-normal);
   color: var(--PrimaryDarkRaspberry);
   margin-bottom: 0.4em;
 }
@@ -117,7 +118,7 @@ table {
 caption {
   text-align: left;
   font-family: var(--FF-type1, serif);
-  font-weight: var(--FW-normal);
+  font-weight: var(--FW-light);
   color: var(--Primary-Nutmeg);
   font-size: calc(1rem + 1vw);
 }
