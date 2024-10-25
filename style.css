@@ -150,7 +150,7 @@ tr td:last-of-type {
   text-align: center;
   margin-top: 2em;
 }
-.attribution a {
+.attribution a:link {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
